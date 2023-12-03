@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список справ</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>Список справ</h1>
+    <div id="taskForm">
+      <input type="text" id="taskInput" placeholder="Нова справа">
+      <button id="addTaskBtn" onclick="addTask()">Додати</button>
+    </div>
+    <div id="tasks"></div>
+    <p>Загальна кількість справ: <span id="totalTasks">0</span>
+    </p>
+    <p>Кількість незроблених справ: <span id="remainingTasks">0</span>
+    </p>
+    <button id="removeBtn" onclick="clearTasks()">Очистити список</button>
+    <script src="script.js"></script>
+  </body>
+</html>
